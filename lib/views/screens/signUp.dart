@@ -4,6 +4,7 @@ import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:get/get.dart';
 import 'package:master_car/core/functions/alertExit.dart';
+import 'package:master_car/views/widgets/Auth/customDatePicker.dart';
 import 'package:master_car/views/widgets/Auth/customTextFormField.dart';
 
 import '../../controller/signUpController.dart';
@@ -102,14 +103,9 @@ class SignUp extends StatelessWidget {
 // mycontroller: ,
                         ),
                          const SizedBox(height: 15),
-                        CustomTextFormField(
-                          valid: (val) {},
-                          myController: controller.DateOfBirth,
-                          hintText: "Date Of Birth:",
-                          iconData: Icons.person_outline,
-                          labelText: "Date of Birth", isNumber: false,
-// mycontroller: ,
+                        CustomDate(
                         ),
+                        SizedBox(height: 15,),
                         CustomTextFormField(
                           valid: (val) {},
                           myController: controller.password,
@@ -118,6 +114,10 @@ class SignUp extends StatelessWidget {
                           labelText: "Password", isNumber: false,
 // mycontroller: ,
                         ),
+                      SizedBox(
+                          height: 15,
+                        ),
+
                         CustomButtonAuth(
                             text: "Sign Up",
                             onPressed: () {

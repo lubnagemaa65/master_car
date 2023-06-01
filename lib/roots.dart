@@ -1,7 +1,9 @@
 
 
 import 'package:get/get.dart';
+import 'package:master_car/views/screens/Auth/home.dart';
 import 'package:master_car/views/screens/Auth/successSignUp.dart';
+import 'package:master_car/views/screens/homescreen.dart';
 import 'package:master_car/views/screens/login.dart';
 import 'package:master_car/views/screens/signUp.dart';
 
@@ -22,8 +24,8 @@ List<GetPage<dynamic>>? routes = [
   //GetPage(name: AppRoute.successSignUp, page: () => const SuccessSignUp()),
   //GetPage(name: AppRoute.onBoarding, page: () => const OnBoardingScreen()),
   GetPage(name: AppRoute.verifyCodeSignUp, page: () => const VerfiyCodeSignUp()),
-  //GetPage(name: AppRoute.homepage, page: () => const HomePage()),
-  //GetPage(name: AppRoute.homescreen, page: () => const HomeScreen()),
+  GetPage(name: AppRoute.homepage, page: () => const HomePage()),
+  GetPage(name: AppRoute.homescreen, page: () => const HomeScreen()),
  
 
 ];

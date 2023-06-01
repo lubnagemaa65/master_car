@@ -2,10 +2,11 @@
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:master_car/core/class/statusRequest.dart';
 import 'package:master_car/core/constant/roots.dart';
 import 'package:master_car/data/data_source/remote/signup.dart';
 
-import '../core/class/statusRequest.dart';
+
 import '../core/functions/handelingdata.dart';
 
 abstract class SignUpController extends GetxController {

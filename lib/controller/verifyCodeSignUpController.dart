@@ -1,9 +1,9 @@
 
 
 import 'package:get/get.dart';
+import 'package:master_car/core/class/statusRequest.dart';
 import 'package:master_car/core/functions/handelingdata.dart';
 
-import '../core/class/statusrequest.dart';
 import '../core/constant/roots.dart';
 import '../data/data_source/remote/verifycodesignup.dart';
 
