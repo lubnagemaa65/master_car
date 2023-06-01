@@ -1,10 +1,6 @@
 # master_car
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
+Flutter Application for cars purchasing using GetX.
 
 A few resources to get you started if this is your first Flutter project:
 
